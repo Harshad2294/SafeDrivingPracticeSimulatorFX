@@ -3,6 +3,8 @@
 
 - The simulator features all the minimum stated requirements, without any deprecated code.
 
+- Currently runs on only 1920x1080 resolution.
+
 - If a '.jar' file exists, simply double click on the application to execute the program. For the application
 to run, 'files' folder is necessary as it contains login details and files required by application, else the
 program won't accordingly.
