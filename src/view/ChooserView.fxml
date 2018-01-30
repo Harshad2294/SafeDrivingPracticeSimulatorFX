@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Author : Harshad Shettigar
+    This is a fxml file for chooser UI
+-->
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="161.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ChooserController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="321.0">
+         <top>
+            <Label prefHeight="27.0" prefWidth="325.0" BorderPane.alignment="CENTER" />
+         </top>
+         <left>
+            <Label prefHeight="172.0" prefWidth="40.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Label prefHeight="146.0" prefWidth="40.0" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <Label prefHeight="27.0" prefWidth="325.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
+                     <children>
+                        <RadioButton fx:id="demoRadio" contentDisplay="CENTER" mnemonicParsing="false" selected="true" text="Demo">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="demoChoice" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="practiceRadio" contentDisplay="CENTER" mnemonicParsing="false" text="Practice" toggleGroup="$demoChoice">
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin></RadioButton>
+                     </children>
+                  </VBox>
+                  <Button mnemonicParsing="false" onAction="#loadSimulation" text="Select choice" />
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

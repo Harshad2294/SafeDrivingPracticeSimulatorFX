@@ -1,0 +1,24 @@
+******************************************************************
+						Terms And Conditions
+******************************************************************
+
+Accepting the terms 
+1) In order to use the software, you must agree with the terms.
+Not accepting the terms will not run the software.
+2) You can accept the terms by clicking 'Yes' wherever it is
+visible on the UI.
+
+Use of software
+1) You agree to use the software for only training purposes.
+2) You are not allowed to modify,reverse engineer,duplicate,
+copy or sell the software or service.
+3) You are solely responsible for any damages caused to
+yourself or others due to wrong use of the software.
+4) The software requires write permission to export the
+data to the text file.
+5) You agree to not remove or move the files required for
+the running of this software.
+6) You agree to use the software provided as is.
+
+
+******************************************************************
