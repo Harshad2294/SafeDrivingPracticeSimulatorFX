@@ -117,7 +117,7 @@ public class SimulationController {
      */
     private void addListeners() {
         menuLabel.setOnMouseClicked((event) -> {
-            JOptionPane.showMessageDialog(null, "----------------------------------------------------------------------------\nSafe Driving Practice Simulator v2.0.\nAdvanced Java project.\nDeveloped by\nNami Shah (101188512) and Harshad Shettigar (101199666).\nFaculty of Science,Engineering and Technology.\n----------------------------------------------------------------------------");
+            JOptionPane.showMessageDialog(null, "----------------------------------------------------------------------------\nSafe Driving Practice Simulator v2.0.\nAdvanced Java project.\nDeveloped by\nHarshad Shettigar.\nFaculty of Science,Engineering and Technology.\n----------------------------------------------------------------------------");
         });
         durationSlider.valueProperty().addListener((ObservableValue<? extends Number> observable, Number oldValue, Number newValue) -> {
             durationLabel.setText(newValue.intValue() + " seconds");
