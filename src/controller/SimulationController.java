@@ -270,7 +270,6 @@ public class SimulationController {
      * This method is used to start timer
      */
     private void startTimer() {
-        secondCounter=60;
         Task t = new Task<Void>() {
             @Override
             protected Void call() throws Exception {
