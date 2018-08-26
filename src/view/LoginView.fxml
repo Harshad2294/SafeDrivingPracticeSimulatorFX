@@ -38,10 +38,10 @@
                            <effect>
                               <InnerShadow />
                            </effect></TextField>
-                        <TextField fx:id="password" promptText="Password" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        <PasswordField fx:id="password" promptText="Password" GridPane.columnIndex="1" GridPane.rowIndex="1">
                            <effect>
                               <InnerShadow />
-                           </effect></TextField>
+                           </effect></PasswordField>
                         <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="27.0" prefWidth="305.0" text="Username" textAlignment="CENTER" />
                         <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="27.0" prefWidth="305.0" text="Password" textAlignment="CENTER" GridPane.rowIndex="1" />
                         <Button mnemonicParsing="false" onAction="#clear" prefHeight="39.0" prefWidth="115.0" text="Clear" GridPane.rowIndex="2">

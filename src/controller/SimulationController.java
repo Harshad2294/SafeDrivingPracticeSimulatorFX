@@ -117,7 +117,7 @@ public class SimulationController {
      */
     private void addListeners() {
         menuLabel.setOnMouseClicked((event) -> {
-            JOptionPane.showMessageDialog(null, "----------------------------------------------------------------------------\nSafe Driving Practice Simulator v2.0.\nAdvanced Java project.\nDeveloped by\nNami Shah (101188512) and Harshad Shettigar (101199666).\nFaculty of Science,Engineering and Technology.\n----------------------------------------------------------------------------");
+            JOptionPane.showMessageDialog(null, "----------------------------------------------------------------------------\nSafe Driving Practice Simulator v2.0.\nAdvanced Java project.\nDeveloped by\nHarshad Shettigar.\nFaculty of Science,Engineering and Technology.\n----------------------------------------------------------------------------");
         });
         durationSlider.valueProperty().addListener((ObservableValue<? extends Number> observable, Number oldValue, Number newValue) -> {
             durationLabel.setText(newValue.intValue() + " seconds");
@@ -270,7 +270,6 @@ public class SimulationController {
      * This method is used to start timer
      */
     private void startTimer() {
-        secondCounter=60;
         Task t = new Task<Void>() {
             @Override
             protected Void call() throws Exception {
@@ -485,6 +484,7 @@ public class SimulationController {
                 Parent root = FXMLLoader.load(getClass().getResource("/view/SimulationView.fxml"));
                 Scene scene = new Scene(root);
                 primaryStage.setScene(scene);
+                primaryStage.setResizable(false);
                 Platform.runLater(primaryStage::show);
                 Stage stage = ((Stage) menuBar.getScene().getWindow());
                 stage.close();
@@ -505,6 +505,7 @@ public class SimulationController {
                 Parent root = FXMLLoader.load(getClass().getResource("/view/SimulationView.fxml"));
                 Scene scene = new Scene(root);
                 primaryStage.setScene(scene);
+                primaryStage.setResizable(false);
                 Platform.runLater(primaryStage::show);
                 Stage stage = ((Stage) menuBar.getScene().getWindow());
                 stage.close();

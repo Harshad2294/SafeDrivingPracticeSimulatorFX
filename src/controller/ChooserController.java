@@ -57,6 +57,7 @@ public class ChooserController {
             Parent root = FXMLLoader.load(getClass().getResource("/view/SimulationView.fxml"));
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
+            primaryStage.setResizable(false);
             Platform.runLater(primaryStage::show);
             Stage stage = ((Stage) demoRadio.getScene().getWindow());
             stage.close();

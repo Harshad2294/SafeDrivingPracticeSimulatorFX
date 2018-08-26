@@ -47,8 +47,8 @@ public class SimulationPane extends Pane {
     //class variables
     private final double CAR_SPACING = 30;
     private final double CAR_HEIGHT = 40;
-    private final String IMAGE_PATH = "files\\images\\car";
-    private final String IMAGE_PATH_1 = "files\\images\\";
+    private final String IMAGE_PATH = "files/images/car";
+    private final String IMAGE_PATH_1 = "files/images/";
     private final int BACKGROUND_HEIGHT = 700;
     private final double CAR_WIDTH = 30;
     private final double HUES[] = {0.1, 0.4, 0.6, 1, -0.4, -0.18}; // Orange, Olive Green, Green, Cyan, Violet, Pink
@@ -105,7 +105,7 @@ public class SimulationPane extends Pane {
      */
     private void createRoad() {
         try {
-            road = new ImageView(new Image(new FileInputStream("files\\images\\roadtexture.png")));
+            road = new ImageView(new Image(new FileInputStream("files/images/roadtexture.png")));
             road.setFitWidth(400);
             runTransition();
             hazardIndex++;
@@ -378,7 +378,7 @@ public class SimulationPane extends Pane {
     }
 
     /**
-     * Method to display comparison table of car in need of contro;
+     * Method to display comparison table of car in need of control;
      */
     public void showCarTable() {
         try {
