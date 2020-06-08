@@ -1,5 +1,5 @@
 Contributers :
-@Harshad2294 & @nami-sh
+[Harshad Shettigar](https://github.com/Harshad2294) & [Nami Shah](https://github.com/nami-sh)
 
 - Safe Driving Practice Simulator requires JRE/JDK 8 with minimum memory heap for JVM larger than 256MB.
 
